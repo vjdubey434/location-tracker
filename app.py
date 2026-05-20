@@ -39,6 +39,8 @@ def track_location():
     conn.close()
     
     return {"status": "success"}, 200
+    
+init_db()
 
 if __name__ == '__main__':
     init_db()
